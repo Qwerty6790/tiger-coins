@@ -1,0 +1,92 @@
+@media (max-width: 430px) and (max-width: 932px){
+  .info-bar{
+    margin-left: -160px;
+ 
+  }
+}
+
+
+.balance-section{
+  display: flex;
+  height: 23px;
+  color: #d3d0d0;
+  position: absolute;
+  left: 14px;
+  top: 75px;
+  
+}
+
+
+.info-bar{
+  position: absolute;
+  left:41%;
+  transform: translateX(-50%);
+}
+
+.profit-section{
+  display: flex;
+  color: #d3d0d0;
+  position: absolute;
+  left: 125px;
+  top: 75px;
+}
+
+.profit-by-tap-section{
+  display: flex;
+  color: #d3d0d0;
+  position: absolute;
+ left: 280px;
+ top: 90px;
+} 
+
+.info-text{
+  color:#464646;
+  margin-left: 50px;
+  width: 90px;
+}
+
+.balance-value{
+  margin-top: 38px;
+  margin-left: -90px;
+}
+
+
+.profit-value{
+  margin-top: 38px;
+  margin-left: -85px;
+  font-weight: bold;
+}
+
+.profit-by-tap-text{
+  color:#464646;
+  position: absolute;
+  width: 90px;
+  margin-top: 2px;
+  margin-left: 35px;
+}
+
+.profit-by-tap-value{
+  position: absolute;
+  margin-top: 23px;
+  margin-left:40px;
+}
+
+
+.balance-img{
+  position: absolute;
+  top: 13px;
+  left: -6px;
+ }
+ 
+
+ .profit-by-tap-img{
+  position: absolute;
+  margin-top: 8px;
+ }
+
+ 
+.profit-img{
+  position: absolute;
+  top: -22px;
+  left: -18px;
+  }

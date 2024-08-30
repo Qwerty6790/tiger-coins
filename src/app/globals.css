@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Big+Shoulders+Inline+Text:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html{
+ height: 100%;
+}
+
+body {
+  overflow: hidden;
+  user-select:none;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.navigation-panel { 
+  position: absolute; 
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  border: 2px solid #c6823e;
+  background-color: #b96b23;
+  border-radius: 20px;
+  left: 50%;
+  top:810px;
+  transform: translateX(-50%);
+  padding: 20px 5px 10px 5px; 
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 700; 
+  font-size: 12px; 
+  bottom: 25px; 
+  width: 387px; 
+  height: 50px;
+  z-index: 100;
+}
+
+ 
+.navigation-panel div { 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;  
+  box-shadow: white 1px;
+  flex-wrap: nowrap; 
+  padding: 6px 1px;
+} 
+ 
+.navigation-panel a { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 0;
+  outline: none; 
+  text-decoration: none; 
+  color:  #ffff; 
+} 
+
+.navigation-panel a:hover{
+  color: transparent;
+}
+ 
+.navigation-panel i a { 
+  width: 30px; 
+  height: 30px;  
+  font-size: 20px;
+}
+
+
+
+.icons{
+  width: 95px;
+  height: 50px;
+  padding-bottom: 1px;
+  background-color: transparent;
+  border: 1px slid #fff;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.icons:hover{
+  background-color: #b3a79b;
+  border: 1px slid #fff;
+}
+
+
+
+

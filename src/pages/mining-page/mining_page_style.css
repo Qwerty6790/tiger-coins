@@ -1,0 +1,103 @@
+
+
+
+
+body{
+  background-color:#141414 ; 
+ }
+ 
+ .navigation-panel { 
+  display: flex;
+  align-items: center;
+  border: 2px solid #878787;
+  background-color: #464646;
+  border-radius: 20px;
+  justify-content: center;  
+  align-items:center;  
+  margin: 0 4px 23px;
+  padding: 0 -25px 0 -10px;
+  left: 49%;
+  transform: translateX(-50%);
+  width: 387px; 
+  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  font-family: "Montserrat", sans-serif; 
+  font-optical-sizing: auto; 
+  font-style: 700; 
+  position: absolute; 
+  font-size: 12px; 
+  bottom: 0; 
+  width: 387px; 
+  height:7%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  z-index: 100;
+} 
+
+
+
+.cards {
+  flex-direction: column;
+  position: absolute;
+
+  height: 550px;
+  width: 100%;
+  margin-top: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.mining-in-self-navbar{
+  background-color: #4d4b4b;
+  border-radius: 18px;
+  width:150px;
+  height: 27px;
+  text-align: center;
+}
+
+
+
+.cart-section{
+  width: 90%;
+  height: 40%;
+  background-color: #1d1e20;
+  padding: 10vh 1vh 0vh 1vh;
+  margin: 1.7vh;
+  margin-left: -0.vh;
+  border-radius: 14px;
+  z-index: 100;
+}
+
+.message-of-earn {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 13px;
+  color: aliceblue;
+  position: absolute;
+  flex-direction: column;
+  align-items: center; 
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  display: flex;
+
+  white-space: nowrap;
+}
+
+a{
+  color: #d3d0d0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+
